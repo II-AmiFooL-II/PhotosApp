@@ -1,0 +1,24 @@
+.css-79ws1d-MuiModal-root .css-1wnsr1i {
+    border-radius: 20px;
+    border: none; 
+  }
+  
+  #modal-content {
+    &:hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+      transition: transform 0.5s ease-out;
+    }
+  }
+  
+  #btn-cancel {
+    background: #9ba8b3;
+    color: rgb(8, 8, 8) !important;
+    position: relative;
+    left: 300px;
+  
+    &:hover {
+      background: #e9eaee !important;
+    }
+  }
+  
